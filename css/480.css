@@ -1,0 +1,41 @@
+#wrap { position:relative;  width:260px; margin: 0px auto; padding-top:70px; }
+body { background: url(../images/background/bcg_480.jpg) repeat; background-size:100% auto; }
+
+/* Some magic */
+.fade-item { display: block; opacity: 1.0; }
+.clearfix:after { content:none; }
+
+/* menu styles */
+#menu { position:relative; height:120px; }
+#menu-items{ position:relative; width:280px; }
+
+/* Some padding */
+#menu-items .menu-item{ margin-top:20px; }
+#about .about-child{ margin-top:20px; }
+#portfolio .portfolio-child{ margin-top:20px; margin-bottom:0; }
+#resume .resume-child{ margin-top:20px; }
+#contacts .contacts-child{ margin-top:20px; }
+#about-info { margin-top:20px; }
+
+/* Portfolio styles */
+#portfolio { width:280px; }
+
+/* Resume styles */
+#work { width:260px; }
+#work p { width: 220px; margin-top:30px; }
+#work ul li { width:260px; }
+#work date { font-size:12px; float:left; margin:5px 0 0 30px; }
+
+/* Map */
+#contacts #contacts-map { width:250px; margin-bottom:0; }
+
+/* Contact form */
+.clear-2 { width:260px; }
+#contacts-form h2 { width:250px;}
+.input { width:235px; }
+.textarea { width:235px; } 
+#submit { margin-left: 45px; } 
+
+/* Slider */
+.flex-direction-nav .flex-next {opacity: 1; right: 10px;}
+.flex-direction-nav .flex-prev {opacity: 1; left: 10px;}
